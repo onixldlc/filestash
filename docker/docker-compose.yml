@@ -23,7 +23,7 @@ services:
       - "extra_params=--o:ssl.enable=false"
       - aliasgroup1="https://.*:443"
     volumes:
-      - ./branding-desktop.css /usr/share/coolwsd/browser/dist/branding-desktop.css
+      - ./branding-desktop.css:/usr/share/coolwsd/browser/dist/branding-desktop.css
     ports:
       - "9980:9980"
 
